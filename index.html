@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <link rel="stylesheet" href="./styles/responsividade.css">
+    <link rel="icon" href="./images/siteIcon.svg">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper flex" id="topTitle">
+            <div class="flex" id="topTitle">
+                <img src="./images/d20_20.svg" alt="" id="img">
+                <h1 class="slide-in-fwd-center" id="title">Dice Roller</h1>
+            </div>
+            <div class="flex">
+                <button id="saveLoad" class="button">Salvar</button>
+                <button id="saveLoad" class="button">Carregar</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="chatConfig">
+                <textarea id="logMessage" spellcheck="false" readonly></textarea>
+                <div>
+                    <div class="inputLog wrapper flex">
+                        <textarea id="username" spellcheck="false" type="text" placeholder="Nome"></textarea>
+                        <h2 class="espaco"> - </h2>
+                        <input id="level" spellcheck="false" type="number" placeholder="Level"></input>
+                        <h2 class="espaco"> / </h2>
+                        <input id="HP" spellcheck="false" type="number" placeholder="HP"></input>
+                    </div>
+                    <div class="wrapper flex" id="buttonConfig">
+                        <div id="buttonRow">
+                            <button id="buttonStyle" class="button" onclick="jogar1d4()">1D4</button>
+                            <button id="buttonStyle" class="button" onclick="jogar1d6()">1D6</button>
+                            <button id="buttonStyle" class="button" onclick="jogar1d8()">1D8</button>
+                        </div>
+                        <div id="buttonRow">
+                            <button id="buttonStyle" class="button" onclick="jogar1d10()">1D10</button>
+                            <button id="buttonStyle" class="button" onclick="jogar1d12()">1D12</button>
+                            <button id="buttonStyle" class="button" onclick="jogar1d20()">1D20</button>
+                        </div>
+                        <div>
+                            <button id="buttonStyle" class="button" onclick="jogar1d100()">1D100</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inputLog wrapper flex">
+                        <textarea id="usernameEn" spellcheck="false" type="text" placeholder="Inimigo"></textarea>
+                        <h2 class="espacoEn"> - </h2>
+                        <input id="qntdEn" spellcheck="false" type="number" placeholder="Qntd"></input>
+                        <h2 class="espacoEn"> / </h2>
+                        <input id="hpEn" spellcheck="false" type="number" placeholder="HP"></input>
+                        <h2 class="espacoEn"> - </h2>
+                        <input id="atkEn" spellcheck="false" type="number" placeholder="ATK"></input>
+                    </div>
+                    <div class="inputLog wrapper flex">
+                        <textarea id="usernameEn" spellcheck="false" type="text" placeholder="Inimigo"></textarea>
+                        <h2 class="espacoEn"> - </h2>
+                        <input id="qntdEn" spellcheck="false" type="number" placeholder="Qntd"></input>
+                        <h2 class="espacoEn"> / </h2>
+                        <input id="hpEn" spellcheck="false" type="number" placeholder="HP"></input>
+                        <h2 class="espacoEn"> - </h2>
+                        <input id="atkEn" spellcheck="false" type="number" placeholder="ATK"></input>
+                    </div>
+                    <div class="inputLog wrapper flex">
+                        <textarea id="usernameEn" spellcheck="false" type="text" placeholder="Inimigo"></textarea>
+                        <h2 class="espacoEn"> - </h2>
+                        <input id="qntdEn" spellcheck="false" type="number" placeholder="Qntd"></input>
+                        <h2 class="espacoEn"> / </h2>
+                        <input id="hpEn" spellcheck="false" type="number" placeholder="HP"></input>
+                        <h2 class="espacoEn"> - </h2>
+                        <input id="atkEn" spellcheck="false" type="number" placeholder="ATK"></input>
+                    </div>
+                    <div class="inputLog wrapper flex">
+                        <textarea id="usernameEn" spellcheck="false" type="text" placeholder="Inimigo"></textarea>
+                        <h2 class="espacoEn"> - </h2>
+                        <input id="qntdEn" spellcheck="false" type="number" placeholder="Qntd"></input>
+                        <h2 class="espacoEn"> / </h2>
+                        <input id="hpEn" spellcheck="false" type="number" placeholder="HP"></input>
+                        <h2 class="espacoEn"> - </h2>
+                        <input id="atkEn" spellcheck="false" type="number" placeholder="ATK"></input>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Lucas Xavier, DPWEB22 M-18 </p>
+        </footer>
+
+    </main>
+    <script src="./script.js"></script>
+
+</body>
+
+
+</html>

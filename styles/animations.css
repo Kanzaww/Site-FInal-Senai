@@ -1,0 +1,62 @@
+/* inicio da animação do titulo "Dice Roller" */
+.slide-in-fwd-center {
+    -webkit-animation: slide-in-fwd-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+    animation: slide-in-fwd-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+}
+
+@-webkit-keyframes slide-in-fwd-center {
+    0% {
+        -webkit-transform: translateZ(-1400px);
+        transform: translateZ(-1400px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-fwd-center {
+    0% {
+        -webkit-transform: translateZ(-1400px);
+        transform: translateZ(-1400px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+/* final da animação do titulo "Dice Roller" */
+
+/* estilização dos botões */
+.button {
+    position: relative;
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #7a6957;
+    border: none;
+    border-bottom: 5px solid #554a3d;
+    text-shadow: 0px -2px #554a3d;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.button:hover, button:active {
+    -webkit-transform: translate(0px, 5px);
+    -ms-transform: translate(0px, 5px);
+    transform: translate(0px, 5px);
+    border-bottom: 1px solid #554a3d;
+}
+
+/* Fim da estilização do Header */

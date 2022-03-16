@@ -1,0 +1,228 @@
+/* import da fonte usada */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Nunito:wght@300&display=swap');
+
+/* Inicio da estilização do Header */
+header {
+  background: linear-gradient(90deg, #5d5b7a 0%, #414055 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#topTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#img {
+  width: 60px;
+}
+
+#title {
+  padding: 8px;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 42px;
+  background-image: linear-gradient(to right, #edf6ff, #c4d6e7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#saveLoad {
+  font-size: 20px;
+  color: white;
+  padding: 8px;
+  font-family: 'MedievalSharp', cursive;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px 10px;
+}
+
+/* Inicio estilização da main */
+
+/* Estilizando o log */
+body {
+  background: linear-gradient(90deg, #57697a 0%, #57607A 100%);
+}
+
+#chatConfig {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.inputLog {
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+#logMessage {
+  width: 50%;
+  height: 720px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 26px;
+  margin: 10px;
+  background-color: #554a3d;
+  color: #FFF;
+  resize: none;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  outline: none;
+}
+
+/* estilizando info */
+#username {
+  width: 120px;
+  height: 25px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+  padding: 2px 6px;
+  margin: 30px 0;
+  outline: none;
+}
+
+#level {
+  width: 60px;
+  height: 25px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+  padding: 2px 2px;
+  margin: 30px 0;
+  outline: none;
+}
+
+#HP {
+  width: 45px;
+  height: 25px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+  padding: 2px 2px;
+  margin: 30px 0;
+  outline: none;
+}
+
+.espaco {
+  color: #FFF;
+  padding: 0 4px;
+  margin: 29px 0;
+}
+
+/* inimigos */
+
+#usernameEn {
+  width: 120px;
+  height: 25px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+  padding: 2px 6px;
+  margin: 10px 0;
+  outline: none;
+}
+
+#qntdEn {
+  width: 60px;
+  height: 25px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+  padding: 2px 2px;
+  margin: 10px 0;
+  outline: none;
+}
+
+#hpEn {
+  width: 45px;
+  height: 25px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+  padding: 2px 2px;
+  margin: 10px 0;
+  outline: none;
+}
+
+#atkEn {
+  width: 60px;
+  height: 25px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+  padding: 2px 2px;
+  margin: 10px 0;
+  outline: none;
+}
+
+.espacoEn {
+  color: #FFF;
+  padding: 0 4px;
+  margin: 9px 0;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* fim estilização do log */
+
+/* inicio estilização dos botões */
+
+#buttonStyle {
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  font-family: 'MedievalSharp', cursive;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px 10px;
+}
+
+#buttonConfig {
+  flex-direction: column;
+}
+
+#buttonRow {
+  display: flex;
+  flex-direction: row;
+}
+
+/* estilização do footer */
+footer {
+  background: linear-gradient(90deg, #5d5b7a 0%, #414055 100%);
+  text-align: center;
+  padding: 7px 0;
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+/*
+   Contraste
+   #57607A
+   #57697a
+   #3d4955
+   #7a6957
+   #554a3d
+
+   Tríade
+   #7a5763
+   #553d45
+   #7a7757
+   #55533d
+
+   Análogas
+   #5d5b7a
+   #414055
+
+   Mono
+   #edf6ff
+   #c4d6e7
+   */
